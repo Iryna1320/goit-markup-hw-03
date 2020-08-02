@@ -139,6 +139,7 @@ body {
 /*Hero*/
 
 .hero {
+  padding: 200px 452px;
   background: var(--background-color);
   text-align: center;
 }
@@ -153,8 +154,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-
-  background-color: tomato;
 }
 
 .hero-btn {
@@ -186,6 +185,7 @@ body {
 .title {
   margin-top: 0;
   margin-bottom: 0;
+  text-align: center;
   background: var(--background-color);
   color: var(--white-color);
 }
@@ -218,6 +218,8 @@ body {
 
 .white-title {
   margin-bottom: 10px;
+  font-size: 14px;
+  text-align: left;
   background: var(--white-color);
 }
 
@@ -250,6 +252,10 @@ body {
 
 .teams {
   display: flex;
+}
+
+.teams-color {
+  background: var(--background-color);
 }
 
 .teams-item {
@@ -306,7 +312,7 @@ body {
   display: inline-block;
   border: 1px solid transparent;
   border-radius: 4px;
-  padding: 6px, 22px;
+  padding: 6px 22px;
   min-width: 73px;
 
   font-family: inherit;
@@ -317,6 +323,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 
+  background: var(--primary-text-color);
   color: var(--dark-color);
 }
 
@@ -345,10 +352,9 @@ body {
 }
 
 .title-img {
-  padding-top: 20px;
-  padding-right: 24px;
-  padding-bottom: 20px;
-  padding-left: 24px;
+  padding: 20px 24px;
+
+  border: 1px solid grey;
 }
 
 .gallery-title {
@@ -374,6 +380,10 @@ body {
 
 .footer {
   background: var(--footer-color);
+}
+
+.white-logo {
+  color: var(--white-color);
 }
 
 .footer-flex {
