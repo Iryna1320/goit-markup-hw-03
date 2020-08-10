@@ -93,6 +93,7 @@ body {
 }
 
 .site-nav .nav-link {
+  padding-bottom: 28px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -104,12 +105,17 @@ body {
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
   color: var(--accent-color);
+  border-bottom: 3px solid var(--accent-color);
 }
 
 .nav-link.current {
   color: var(--accent-color);
 }
 
+.active {
+  border-bottom: 3px solid var(--accent-color);
+  border-radius: 2px;
+}
 .nav-item:not(:last-child) {
   margin-right: 50px;
 }
@@ -259,6 +265,10 @@ body {
 
 .teams-item {
   width: calc((100% - 3 * 30px) / 4);
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .teams-item:not(:last-child) {
@@ -340,6 +350,11 @@ body {
 .gallery-item {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
+  margin-top: 30px;
+
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
 }
 
 .gallery-item:nth-child(3n) {
@@ -352,8 +367,6 @@ body {
 
 .title-img {
   padding: 20px 24px;
-
-  border: 1px solid grey;
 }
 
 .gallery-title {
