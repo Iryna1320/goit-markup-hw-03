@@ -46,6 +46,10 @@ body {
   list-style: none;
 }
 
+.page-header {
+  border: 1px solid #ececec;
+}
+
 .flexbox {
   display: flex;
   justify-content: flex-end;
@@ -260,7 +264,8 @@ body {
 }
 
 .teams-color {
-  background: var(--background-color);
+  background: #f5f4fa;
+  /*background: var(--background-color);*/
 }
 
 .teams-item {
@@ -332,7 +337,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 
-  background: var(--primary-text-color);
+  background: #f5f4fa;
   color: var(--dark-color);
 }
 
